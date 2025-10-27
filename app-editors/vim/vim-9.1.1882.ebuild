@@ -12,7 +12,7 @@ inherit vim-doc flag-o-matic fdo-mime bash-completion-r1 python-single-r1 \
 
 DESCRIPTION="Vim, an improved vi-style text editor"
 HOMEPAGE="http://www.vim.org/ https://github.com/vim/vim"
-SRC_URI="https://github.com/vim/vim/archive/v9.1.1864/v9.1.1864.tar.gz -> vim-9.1.1864.tar.gz"
+SRC_URI="https://github.com/vim/vim/archive/v9.1.1882/v9.1.1882.tar.gz -> vim-9.1.1882.tar.gz"
 
 SLOT="0"
 LICENSE="vim"
@@ -55,7 +55,6 @@ DEPEND="${RDEPEND}
 PDEPEND="!minimal? ( app-vim/gentoo-syntax )"
 PATCHES=(
 	"${FILESDIR}/vim-6.3-xorg-75816.patch"
-	"${FILESDIR}/vim-7.3-apache-83565.patch"
 	"${FILESDIR}/vim-7.0-automake-substitutions-93378.patch"
 	"${FILESDIR}/vim-7.0-grub-splash-96155.patch"
 	"${FILESDIR}/vim-7.1-ada-default-compiler.patch"
